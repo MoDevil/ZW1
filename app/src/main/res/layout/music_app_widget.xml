@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/musicWg_iv_cover"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:background="@color/btn_Background"
+        android:src="@drawable/music"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/musicWg_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="未播放"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/musicWg_bt_pre"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/btn_Background"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pre" />
+
+            <ImageButton
+                android:id="@+id/musicWg_bt_play"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter"
+                android:background="@color/btn_Background"
+                android:src="@drawable/play"/>
+            <ImageButton
+                android:id="@+id/musicWg_bt_stop"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter"
+                android:background="@color/btn_Background"
+                android:src="@drawable/stop"/>
+            <ImageButton
+                android:id="@+id/musicWg_bt_nex"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter"
+                android:background="@color/btn_Background"
+                android:src="@drawable/nex"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
